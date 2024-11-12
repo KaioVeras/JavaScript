@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="title">Calculadora - IMC</h1>
+      <div id="linha"></div>
+
+      <form onsubmit="return calcular(event)">
+        <label>Peso em kg</label> <br />
+
+        <img src="images/peso.png" alt="peso" />
+        <img src="images/kg.png" alt="kg" id="medida" />
+
+        <input type="text" id="peso" class="inputs" /> <br /><br />
+
+        <label>Altura em metros</label> <br />
+
+        <img src="images/regua.png" alt="régua" />
+        <img src="images/m.png" alt="metros" id="medida" />
+
+        <input type="text" id="altura" class="inputs" /> <br /><br />
+
+        <button type="submit" id="button">Calcular</button>
+      </form>
+
+      <div id="resultado">
+        <div id="linhas"></div>
+
+        <h1>salve</h1>
+
+        <div id="linhas"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

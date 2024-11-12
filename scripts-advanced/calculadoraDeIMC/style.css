@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #18181A;
+    color: #fff;
+}
+
+#container {
+    background-color: #262626;
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 1px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#linha {
+    background-color: #349948;
+    height: 2px;
+    width: 120px;
+    margin-top: -25px;
+    margin-left: 35px;
+}
+
+label {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 18px;
+    margin-bottom: -15px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.inputs {
+    width: 70%;
+    height: 45px;
+    background-color: #404046;
+    border-style: none;
+    border-radius: 3px;
+    margin-bottom: -10px;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    color: #fff;
+}
+
+button {
+    background-color: #349948;
+    border-style: none;
+    width: 90%;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+img {
+    width: 55px;
+    height: 55px;
+    margin-left: -10px;
+    margin-top: -4px;
+    position: absolute;
+    z-index: 1;
+}
+
+#medida {
+    margin-left: 312px;
+    width: 45px;
+    height: 45px;
+    margin-top: 2px;
+}
+
+#resultado {
+    display: flex;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#linhas {
+    width: 90%;
+    height: 1px;
+    background-color: gray;
+}
