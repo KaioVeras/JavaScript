@@ -15,14 +15,14 @@
         <label>Peso em kg</label> <br />
 
         <img src="images/peso.png" alt="peso" />
-        <img src="images/kg.png" alt="kg" id="medida" />
+        <img src="images/kg.png" alt="kg" class="medida" />
 
         <input type="text" id="peso" class="inputs" /> <br /><br />
 
         <label>Altura em metros</label> <br />
 
         <img src="images/regua.png" alt="régua" />
-        <img src="images/m.png" alt="metros" id="medida" />
+        <img src="images/m.png" alt="metros" class="medida" />
 
         <input type="text" id="altura" class="inputs" /> <br /><br />
 
@@ -30,11 +30,21 @@
       </form>
 
       <div id="resultado">
-        <div id="linhas"></div>
+        <div class="linhas"></div>
 
-        <h1>salve</h1>
+        <div id="areaImc">
+          <div id="resultadoImc">
+            <p style="margin-top: -30px">Seu IMC</p>
+          </div>
 
-        <div id="linhas"></div>
+          <div id="textImc"></div>
+        </div>
+
+        <div class="linhas"></div>
+
+        <div id="areaLink">
+          <a href="">Mais informações sobre imc</a>
+        </div>
       </div>
     </div>
     <script src="script.js"></script>

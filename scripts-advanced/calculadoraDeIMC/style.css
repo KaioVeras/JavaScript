@@ -75,7 +75,7 @@ img {
     z-index: 1;
 }
 
-#medida {
+.medida {
     margin-left: 312px;
     width: 45px;
     height: 45px;
@@ -90,8 +90,35 @@ img {
     margin-top: 30px;
 }
 
-#linhas {
+.linhas {
     width: 90%;
     height: 1px;
     background-color: gray;
+}
+
+#areaImc {
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    flex-direction: row;
+    gap: 40px;
+}
+
+#resultadoImc {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 25px;
+    margin-top: -22px;
+}
+h1#titleImc {
+    color: #349948;
+}
+
+#areaLink {
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+a {
+    color: #349948;
+    text-decoration: none;
 }
