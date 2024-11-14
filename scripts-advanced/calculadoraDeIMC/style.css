@@ -137,5 +137,5 @@ a {
   margin-left: -10px;
 }
 a:hover {
-  font-weight: bold;
+  text-decoration: underline;
 }
