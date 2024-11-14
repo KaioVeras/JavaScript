@@ -12,19 +12,19 @@
       <div id="linha"></div>
 
       <form onsubmit="return calcular(event)">
-        <label>Peso em kg</label> <br />
+        <label for="peso">Peso em kg</label> <br />
 
         <img src="images/peso.png" alt="peso" />
         <img src="images/kg.png" alt="kg" class="medida" />
 
-        <input type="text" id="peso" class="inputs" /> <br /><br />
+        <input type="text" id="peso" class="inputs" name="peso"/> <br /><br />
 
-        <label>Altura em metros</label> <br />
+        <label for="altura">Altura em metros</label> <br />
 
         <img src="images/regua.png" alt="régua" />
         <img src="images/m.png" alt="metros" class="medida" />
 
-        <input type="text" id="altura" class="inputs" /> <br /><br />
+        <input type="text" id="altura" class="inputs" name="altura"/> <br /><br />
 
         <button type="submit" id="button">Calcular</button>
       </form>
