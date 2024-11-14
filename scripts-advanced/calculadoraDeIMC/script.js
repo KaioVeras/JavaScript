@@ -17,20 +17,28 @@ function calcular(event) {
   var resultadoImc = document.getElementById("resultadoImc");
   var resultado = document.getElementById("resultado");
 
-  var resultImc = document.createElement("h1");
+  var resultImc = document.getElementById('titleImc');
 
-  var areaTextImc = document.getElementById("textImc");
-  var textImc = document.createElement("p");
+  var areaTextImc = document.getElementById("areaTextImc");
+  var textImc = document.getElementById('descriptionImc');
+
+  if(peso === '' && altura === '') {
+    alert('Atenção, preencha todos os dados!');
+    return;
+  } else if(peso === '') {
+    alert('Por favor, preeencha seu peso!');
+    return;
+  }  else if(altura === '') {
+    alert('Por favor, preencha sua altura!');
+    return;
+  }
 
   resultado.style.display = "flex";
 
-  resultImc.id = "titleImc";
-  resultImc.style.fontSize = "50px";
-  resultImc.innerText = imc.toFixed(1);
+  resultImc.innerText = imc.toFixed(1); 
 
   resultadoImc.appendChild(resultImc);
 
-  textImc.style.fontSize = "18px";
   areaTextImc.appendChild(textImc);
 
   if (imc < 17) {
@@ -44,4 +52,7 @@ function calcular(event) {
   } else {
     textImc.innerText = "Você está obeso.";
   }
+
+  document.getElementById('peso').value = '';
+  document.getElementById('altura').value = ''; 
 }
