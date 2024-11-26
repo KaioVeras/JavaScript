@@ -1,3 +1,19 @@
 
-// Diferença entre var, let e const
+==> Diferença entre var, let e const
 
+==> VAR
+    --> Escopo Global, não é limitada pelas {}
+    --> Pode ser usada antes da declaração - valor undefined 
+    --> Permite redeclaração
+
+==> LET
+    --> Possui escopo de bloco: só pode ser acessada dentro do bloco {} onde foi declarada
+    --> Não pode ser usada antes da declaração
+    --> Não permite redeclaração no mesmo escopo
+
+==> Const 
+    --> Possui escopo de bloco
+    --> Não pode ser usada antes da declaração
+    --> Não permite redeclaração no mesmo escopo
+    --> O valor atribuído a uma const não pode ser reatribído
+    --> Atenção: para objetos ou arrays, as propriedades/elementos podem ser alterados (imutabilidade só se aplica à referência) 
