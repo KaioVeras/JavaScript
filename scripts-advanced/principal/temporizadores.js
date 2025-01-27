@@ -34,6 +34,6 @@ setTimeout(acao, 3000);
 
 // Com função anônima
 
-setInterval(() => {
+setTimeout(() => {
   console.log("Executou nosso timeout");
 }, 3000);

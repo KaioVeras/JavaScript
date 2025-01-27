@@ -1,5 +1,5 @@
 
-==> Diferença entre var, let e const
+==> Diferenças entre var, let e const
 
 ==> VAR
     --> Escopo Global, não é limitada pelas {}
