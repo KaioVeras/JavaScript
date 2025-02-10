@@ -17,17 +17,13 @@ console.log(produtos.length);
 
 console.log(
   produtos.filter((produto) => {
-    if (produto != "Mouse") {
-      return produto != "Mouse";
-    }
+    return produto != "Mouse";
   })
 );
 
 // Forma mais simplificada
 produtos.splice(2, 1);
 console.log(produtos);
-
-// Outra forma
 
 // Faça uma busca na sua lista por algum produto, por exemplo procure por Computador e caso exista esse produto na sua lista exiba um console falando que este produto existe e mostre tambem o nome deste produto caso não exista mostre uma mensagem avisando que o produto não foi encontrado.
 
@@ -64,7 +60,6 @@ console.log(numeros);
 numeros.reverse();
 console.log(numeros);
 
-// Ver como funciona esses códigos
 // ================ Crie uma string que contenha o dia de hoje ================
 
 let hoje = "08/02/2025";
